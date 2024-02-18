@@ -31,7 +31,7 @@ const Header = () => {
         <Button className=" w-12 h-10 hidden sm:inline" color="gray" pill>
           <FaMoon />
         </Button>
-        <Link>
+        <Link to='/SignUp'>
           <Button gradientDuoTone="purpleToBlue">sign In</Button>
         </Link>
         <NavbarToggle />
